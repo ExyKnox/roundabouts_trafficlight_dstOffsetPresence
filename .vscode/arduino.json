@@ -1,6 +1,4 @@
 {
-    "sketch": "roundabouts_trafficlight_dstOffsetPresence.ino",
     "board": "arduino:renesas_uno:minima",
-    "output": "./build",
     "port": "COM7"
 }
