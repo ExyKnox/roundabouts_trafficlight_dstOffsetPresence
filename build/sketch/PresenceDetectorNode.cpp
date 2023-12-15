@@ -6,11 +6,11 @@ PresenceDetectorNode::PresenceDetectorNode() {
 }
 
 PresenceDetectorNode::PresenceDetectorNode(int address) {
-    // constructor, initializes max distance value.
+    // constructor, initializes baseline distance value.
     node_addr = address;
     CheckRegisterAddress();
 
-    // initialize/calibrate node's max distance value. get average of 10 times
+    // calibrate node's baseline distance value. get average of 5 times
     // ToF250 sampling rate is 10hz(at default)
     // so use 100ms of delay to get proper value at proper timing.
     unsigned int distanceSum = 0;
@@ -18,7 +18,7 @@ PresenceDetectorNode::PresenceDetectorNode(int address) {
         distanceSum += ReadTOF250Distance();
         delay(100);
     }
-    offset_distance = distanceSum / 5;
+    baseline_distance = distanceSum / 5;
 
     if (DEBUG) {
         Serial.print("Node addr: ");
@@ -66,8 +66,8 @@ int PresenceDetectorNode::ReadTOF250Distance() {
 }
 
 bool PresenceDetectorNode::IsVehicleDetected() {
-    // calculate distance diff from offset_distance
-    int offset_diff_distance = offset_distance - ReadTOF250Distance();
+    // calculate distance diff from baseline_distance
+    int offset_diff_distance = baseline_distance - ReadTOF250Distance();
 
     if (offset_diff_distance > DETECT_DISTANCE) return true;
     else return false;
