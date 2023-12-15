@@ -1,0 +1,97 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\하승갑\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\renesas_uno\\1.0.4\\cores\\arduino"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\하승갑\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\renesas_uno\\1.0.4\\variants\\MINIMA"
+  },
+  {
+    "Sourcefile": "C:\\Users\\하승갑\\Nextcloud\\2023-2SEM\\캡스톤프로젝트(졸업작품)\\roundabouts_trafficlight_dstOffsetPresence\\build\\sketch\\roundabouts_trafficlight_dstOffsetPresence.ino.cpp",
+    "Include": "Wire.h",
+    "Includepath": "C:\\Users\\하승갑\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\renesas_uno\\1.0.4\\libraries\\Wire"
+  },
+  {
+    "Sourcefile": "C:\\Users\\하승갑\\Nextcloud\\2023-2SEM\\캡스톤프로젝트(졸업작품)\\roundabouts_trafficlight_dstOffsetPresence\\build\\sketch\\roundabouts_trafficlight_dstOffsetPresence.ino.cpp",
+    "Include": "FastLED.h",
+    "Includepath": "C:\\Users\\하승갑\\Documents\\Arduino\\libraries\\FastLED\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\하승갑\\Nextcloud\\2023-2SEM\\캡스톤프로젝트(졸업작품)\\roundabouts_trafficlight_dstOffsetPresence\\build\\sketch\\roundabouts_trafficlight_dstOffsetPresence.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\하승갑\\Nextcloud\\2023-2SEM\\캡스톤프로젝트(졸업작품)\\roundabouts_trafficlight_dstOffsetPresence\\build\\sketch\\PresenceDetectorNode.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\하승갑\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\renesas_uno\\1.0.4\\libraries\\Wire\\Wire.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\하승갑\\Documents\\Arduino\\libraries\\FastLED\\src\\FastLED.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\하승갑\\Documents\\Arduino\\libraries\\FastLED\\src\\bitswap.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\하승갑\\Documents\\Arduino\\libraries\\FastLED\\src\\colorpalettes.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\하승갑\\Documents\\Arduino\\libraries\\FastLED\\src\\colorutils.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\하승갑\\Documents\\Arduino\\libraries\\FastLED\\src\\five_bit_hd_gamma.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\하승갑\\Documents\\Arduino\\libraries\\FastLED\\src\\hsv2rgb.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\하승갑\\Documents\\Arduino\\libraries\\FastLED\\src\\lib8tion.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\하승갑\\Documents\\Arduino\\libraries\\FastLED\\src\\noise.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\하승갑\\Documents\\Arduino\\libraries\\FastLED\\src\\platforms\\esp\\32\\clockless_rmt_esp32.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\하승갑\\Documents\\Arduino\\libraries\\FastLED\\src\\platforms.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\하승갑\\Documents\\Arduino\\libraries\\FastLED\\src\\power_mgt.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\하승갑\\Documents\\Arduino\\libraries\\FastLED\\src\\wiring.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]

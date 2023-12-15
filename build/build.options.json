@@ -1,0 +1,11 @@
+{
+  "additionalFiles": "..\\..\\..,..\\..\\..,..\\..\\..,..\\..,..\\..,..\\..,..\\..",
+  "builtInToolsFolders": "",
+  "compiler.optimization_flags": "",
+  "customBuildProperties": "",
+  "fqbn": "arduino:renesas_uno:minima",
+  "hardwareFolders": "C:\\Users\\하승갑\\AppData\\Local\\Arduino15\\packages,C:\\Users\\하승갑\\Documents\\Arduino\\hardware",
+  "otherLibrariesFolders": "C:\\Users\\하승갑\\Documents\\Arduino\\libraries",
+  "runtime.ide.version": "10607",
+  "sketchLocation": "C:\\Users\\하승갑\\Nextcloud\\2023-2SEM\\캡스톤프로젝트(졸업작품)\\roundabouts_trafficlight_dstOffsetPresence"
+}
