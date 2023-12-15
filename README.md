@@ -1,5 +1,5 @@
 # roundabouts_trafficlight_dstOffsetPresence
-![roundabouts mockup.jpg](/roundabouts mockup.jpg)   
+![roundabouts_mockup.jpg](/roundabouts_mockup.jpg)   
 **회전교차로 신호등**   
 
 ---
